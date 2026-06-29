@@ -1,0 +1,56 @@
+body{
+  background-color: darkgray;
+  color: grey;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+  
+}
+.Calculadora{
+  background-color: lightgray;
+  grid-template-columns:repeat(4, 60px);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  display: grid;
+  margin-top: 100px;
+  margin-left: 30px;
+  border: 100px;
+  width: 300px;
+  height: 350px;
+  border-radius: 25px;
+  box-shadow: 0 2px 2px 2px black;
+}
+button{
+  background-color: black;
+  color: white;
+  width: 69px;
+  height: 45px;
+  border-radius: 30px;
+  border: 0;
+  font-size: 30px;
+}
+#visor{
+  width: 250px;
+  height: 35px;
+  font-size: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+  grid-column: span 4;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 10px;
+  box-shadow: 2px 0 2px 2px black;
+  background-color: gray;
+  color: white;
+}
+#so{
+  color: orange;
+}
+#re{
+  background-color: orange;
+}
+
